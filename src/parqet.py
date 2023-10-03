@@ -136,4 +136,13 @@ class Portfolio:
         """
         return(self.response['holdings'])
     
+    def get_created_at(self):
+        """
+        Returns the date and time the portfolio was created.
+
+        Returns:
+        - str: The date and time the portfolio was created.
+        """
+        return(self.response['portfolio']['createdAt'])
+    
     
