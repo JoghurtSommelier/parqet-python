@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "parqet"
-version = "1.0.2"
+version = "1.0.3"
 description = "A simple package to interact with the Parqet API."
 readme = "README.md"
 authors = [{ name = "JoghurtConnaisseur"}]
