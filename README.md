@@ -46,7 +46,7 @@ Create a `Portfolio` object and get the name of the portfolio.
 
 ```python
 # Import the package
-from parqet import portfolio
+from parqet import Portfolio
 
 # Create a portfolio object
 portfolio = Portfolio("YOUR_PORTFOLIO_ID")
