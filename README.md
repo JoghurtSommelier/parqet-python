@@ -6,6 +6,11 @@
 <br>
 parqet-python
 <br>
+<br>
+<img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dm/parqet?label=pip%20installs">
+<a href="https://www.buymeacoffee.com/joghurt">
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+  </a>
 </h1>
 
 <h4 align="center">An inoffical package to communicate with the <a href="https://www.parqet.com/" target="_blank">Parqet</a> API.</h4>
