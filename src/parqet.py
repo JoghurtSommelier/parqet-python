@@ -7,7 +7,7 @@ class Portfolio:
     A class representing a portfolio object.
 
     Attributes:
-    - pId (str): The ID of the portfolio.
+    - pId (str): The ID  or the Link of the portfolio.
     - response (dict): The JSON response from the API.
 
     Methods:
@@ -31,7 +31,15 @@ class Portfolio:
         Args:
         - pId (str): The ID of the portfolio.
         """
-            
+
+        # Check if pId is a URL or the ID itself
+        if "https://" in pId:
+            if "https://app.parqet.com/p/" in pId:
+                pId = pId.strip("https://app.parqet.com/p/")
+            else:
+                logger.error("Invalid URL: Either pass the Portfolio ID or the URL in the format https://app.parqet.com/p/XXXXXXX")
+                return
+
         url = f"https://api.parqet.com/v1/portfolios/{pId}"
         try:
             response = requests.get(url)
@@ -144,5 +152,3 @@ class Portfolio:
         - str: The date and time the portfolio was created.
         """
         return(self.response['portfolio']['createdAt'])
-    
-    
