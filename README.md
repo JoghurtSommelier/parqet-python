@@ -1,11 +1,11 @@
 
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/JoghurtConnaisseur/parqet-python/main/img/Parqet.png" alt="Markdownify" width="200">
-  <img src="https://raw.githubusercontent.com/JoghurtConnaisseur/parqet-python/main/img/python.png" alt="Markdownify" width="200">
-  <br>
-  parqet-python
-  <br>
+  <img src="https://raw.githubusercontent.com/JoghurtConnaisseur/parqet-python/main/img/Parqet.png" alt="Parqet Logo" width="200">
+  <img src="https://raw.githubusercontent.com/JoghurtConnaisseur/parqet-python/main/img/python.png" alt="Python Logo" width="200">
+<br>
+parqet-python
+<br>
 </h1>
 
 <h4 align="center">An inoffical package to communicate with the <a href="https://www.parqet.com/" target="_blank">Parqet</a> API.</h4>
