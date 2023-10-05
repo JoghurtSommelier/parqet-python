@@ -6,10 +6,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "parqet"
-version = "1.0.4"
-description = "A simple package to interact with the Parqet API."
+version = "1.0.5"
+description = "An inoffical package to communicate with the Parqet API."
 readme = "README.md"
-authors = [{ name = "JoghurtConnaisseur"}]
+authors = [{ name = "JoghurtSommelier"}]
 classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
@@ -24,4 +24,4 @@ requires-python = ">=3.9"
 [project.optional-dependencies]
 
 [project.urls]
-Homepage = "https://github.com/JoghurtConnaisseur/parqet-python/"
+Homepage = "https://github.com/JoghurtSommelier/parqet-python/"

@@ -148,7 +148,7 @@ print(portfolio.get_name())
 
 ## Download
 
-If you don't want to install the package via pip, you can instead [download](https://github.com/JoghurtConnaisseur/parqet-python/releases/latest) the latest release of the sourcecode.
+If you don't want to install the package via pip, you can instead [download](https://github.com/JoghurtSommelier/parqet-python/releases/latest) the latest release of the sourcecode.
 
 ## Credits
 
@@ -160,5 +160,5 @@ GPL
 
 ---
 
-> GitHub [@JoghurtConnaisseur](https://github.com/JoghurtConnaisseur) &nbsp;&middot;&nbsp;
+> GitHub [@JoghurtSommelier](https://github.com/JoghurtSommelier) &nbsp;&middot;&nbsp;
 
